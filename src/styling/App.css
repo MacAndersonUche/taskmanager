@@ -1,0 +1,13 @@
+.MainDiv {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  ul li:last-child {
+    border-bottom: none;
+  }

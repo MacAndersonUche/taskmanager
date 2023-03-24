@@ -3,6 +3,9 @@ import { TaskType } from './types/types'
 import { MOCK_TASK } from './mocks/mock'
 import Task from './components/Task'
 
+
+
+
 function App() {
   const [tasks, setTasks] = useState<TaskType[]>(MOCK_TASK)
 
@@ -12,7 +15,7 @@ function App() {
 
   }
   return (
-    <div>
+    <div className='MainDiv'>
       <button onClick={handleClick}>Click To Delete</button>
       {tasks.map(task => <Task task={task} key={task.task} />)}
     </div>
