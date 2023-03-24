@@ -1,4 +1,4 @@
-This project is hosted at:
+This project is hosted on Netlify at: https://macstaskmanager.netlify.app/
 
 To run locally use 
 npm install
